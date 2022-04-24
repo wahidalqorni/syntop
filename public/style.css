@@ -1,0 +1,398 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../src/fonts/Poppins-Regular.ttf);
+}
+
+/* Header */
+#Header .logo-syntop {
+    width: 135px;
+    height: 37px;
+
+}
+
+/* Banner */
+#Banner .justify-content-between{
+    margin-top: 120px;
+}
+#Banner .text1 {
+    font-size: 38;
+    font-weight:bold;
+}
+
+#Banner h2 span {
+    color: #FF737B;
+    
+
+}
+
+#Banner .banner {
+    
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+} 
+
+#Banner .content1{
+    margin-top: 5%;
+}
+
+/* Slider */
+#Slider .fa-arrow-circle-left{
+    width: 40px;
+    height: 40px;
+    margin-right: 100%;
+    background-color:#ffffff;
+    color: #FF737B;
+    border-radius: 100%;
+}
+
+#Slider .fa-arrow-circle-right{
+    width: 40px;
+    height: 40px;
+    margin-left: 100%;
+    background-color:#ffffff;
+    color: #FF737B;
+    border-radius: 100%;
+}
+
+#Slider  .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+
+}
+
+/* Rekomendasi */
+#Rekomendasi h6 span{
+    color: #C3BABA;
+}
+
+#Rekomendasi .fa-eye{
+    color: #FF737B;
+}
+
+#Rekomendasi .card-img-top{
+    width: 100%;
+    height: 232px;
+    object-fit: contain;
+}
+
+#Rekomendasi .card-text{
+    color: #C3BABA;
+}
+
+/* Aksesoris */
+#Aksesoris .fa-eye{
+    color: #FF737B;
+}
+
+#Aksesoris h6 span{
+    color: #C3BABA;
+}
+
+#Aksesoris .img-fluid{
+    width: 100%;
+    height: 100%;
+}
+
+#Aksesoris .mb-3{
+box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
+border-radius: 9px;
+width: 395px;
+height: 205px;
+padding: 10px;
+}
+
+/* Footer */
+#Footer .bg-footer{
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+    color: white;
+    background: linear-gradient(to right, red, blue);
+}
+
+/* BreadCrumb */
+#BreadCrumb .home{
+    margin-top: 100px;
+}
+
+#BreadCrumb .fa-home{
+    color: #FF3D47;
+}
+
+
+#BreadCrumb .home2{
+    font-size: 20px;
+}
+
+#BreadCrumb .active{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Teratas */
+
+#Teratas .row{
+    margin-top: 120px;
+}
+
+#Teratas .fa-eye{
+    color: #FF737B;
+}
+
+#Teratas h6 span{
+    color: #C3BABA;
+}
+
+#Aksesoris2 .fa-eye{
+    color: #FF737B;
+}
+
+#Aksesoris2 h6 span{
+    color: #C3BABA;
+}
+
+#BreadCrumbProductDetail .home{
+    margin-top: 100px;
+}
+
+#BreadCrumbProductDetail .fa-arrow-circle-left{
+    width: 30px;
+    height: 30px;
+    margin-right: 110%;
+    background-color:#ffffff;
+    color: #FF737B;
+    border-radius: 100%;
+}
+
+#BannerProductDetail .text1 {
+    font-size: 38;
+    font-weight:bold;
+}
+
+#BannerProductDetail h3 {
+    color: #C3BABA;
+}
+
+#BannerProductDetail h3 span {
+    color: #FF3D47;
+}
+
+#BannerProductDetail h4 span {
+    color: #FF3D47;
+}
+
+#BannerProductDetail .keranjang {
+    color: #FF3D47;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+#BannerProductDetail .fa-arrow-circle-left{
+    width: 30px;
+    height: 30px;
+    margin-right: 100%;
+    background-color:#ffffff;
+    color: #FF737B;
+    border-radius: 100%;
+}
+
+#BannerProductDetail .fa-arrow-circle-right{
+    width: 30px;
+    height: 30px;
+    margin-left: 100%;
+    background-color:#ffffff;
+    color: #FF737B;
+    border-radius: 100%;
+}
+
+#BannerProductDetail .d-block{
+    width: 483px;
+    height: 326px;
+    object-fit: contain;
+}
+
+#BannerProductDetail .background{
+    width: 100%;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#BannerProductDetail .dot{
+    background-color: #FF737B;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#BannerProductDetail .overflow{
+    width:auto;
+    height: 220px;
+    overflow:auto;
+}
+
+#BannerProductDetail input{
+    width: 60px;;
+    height: 40px;
+    overflow:auto;
+}
+
+#Rekomendasi2 .rekomendasi {
+    margin-top: 150px;
+}
+
+#Rekomendasi2 h6 span{
+    color: #C3BABA;
+}
+
+#Rekomendasi2 .fa-eye{
+    color: #FF737B;
+}
+
+#Rekomendasi2 .card-img-top{
+    width: 100%;
+    height: 232px;
+    object-fit: contain;
+}
+
+#Rekomendasi2 .card-text{
+    color: #C3BABA;
+}
+
+#BreadCrumbKeranjang .home{
+    margin-top: 100px;
+}
+
+#BreadCrumbKeranjang .fa-arrow-circle-left{
+    width: 30px;
+    height: 30px;
+    margin-right: 110%;
+    background-color:#ffffff;
+    color: #FF737B;
+    border-radius: 100%;
+}
+
+#HeaderKeranjang .logo-syntop {
+    width: 135px;
+    height: 37px;
+
+}
+
+#HeaderKeranjang .btn {
+    background-color: #ffffff;
+    color: #FF3D47;
+}
+
+#TabelKeranjang img{
+    width: 182px;
+    height: 128px;
+}
+
+#TabelKeranjang td {
+   padding-top: 60px;
+   
+}
+
+#TabelKeranjang th {
+    padding: 20px;
+    
+ }
+ 
+ #BannerKeranjangKosong .btn-danger{
+     width: 200px;
+ }
+
+ #BreadCrumbCheckout .home{
+    margin-top: 100px;
+}
+
+#BreadCrumbCheckout .fa-arrow-circle-left{
+    width: 30px;
+    height: 30px;
+    margin-right: 110%;
+    background-color:#ffffff;
+    color: #FF737B;
+    border-radius: 100%;
+}
+
+#BannerCheckout .fa-arrow-circle-left{
+    width: 30px;
+    height: 30px;
+    margin-right: 100%;
+    background-color:#ffffff;
+    color: #FF737B;
+    border-radius: 100%;
+}
+
+#BannerCheckout .fa-arrow-circle-right{
+    width: 30px;
+    height: 30px;
+    margin-left: 100%;
+    background-color:#ffffff;
+    color: #FF737B;
+    border-radius: 100%;
+}
+
+#BannerCheckout .d-block{
+    width: 483px;
+    height: 326px;
+    object-fit: contain;
+}
+
+#BannerCheckout .background{
+    width: 289px;
+    height: 308px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#BannerCheckout input{
+    margin-left: 16px;
+    margin-top: 10px;
+    width: 60px;;
+    height: 40px;
+    overflow:auto;
+}
+
+#PembayaranCheckout .bsi {
+    width: 81px;
+    height: auto;
+}
+
+#RingkasanBelanjaCheckout h6 {
+    color: #9F9F9F;
+}
+
+#RingkasanBelanjaCheckout .tagihan{
+    color: #FF3D47;
+    font-weight: bold;
+}
+
+#DetailPembayaran .fa-arrow-circle-left{
+    width: 30px;
+    height: 30px;
+    margin-right: 100%;
+    background-color:#ffffff;
+    color: #FF737B;
+    border-radius: 100%;
+}
+
+#DetailPembayaran .fa-arrow-circle-right{
+    width: 30px;
+    height: 30px;
+    margin-left: 100%;
+    background-color:#ffffff;
+    color: #FF737B;
+    border-radius: 100%;
+}
+
+#DetailPembayaran .bsi {
+    width: 81px;
+    height: auto;
+}
+
